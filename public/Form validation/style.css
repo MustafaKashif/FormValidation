@@ -1,0 +1,42 @@
+.form{
+  border: 2px solid black;
+  padding: 50px;
+  font-family: sans-serif;
+  background: linear-gradient(white, gray);
+  color: black;
+}
+.form input{
+  border: 3px solid black;
+     border-radius: 10px 0px 10px 0px;
+     padding: 10px;
+     margin-top: 5px;
+}
+
+button{
+  font-weight: bold;
+  font-size: 20px;
+  width: 190px;
+  border-radius: 20px;
+  padding: 20px;
+  color: white;
+  background-color: black;
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  
+}
+
+h1{
+  margin-top: -10px;
+  text-decoration: underline;
+}
+
+button:hover{
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+}
